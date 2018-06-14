@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Layout 2</title>
+  <link rel="stylesheet" href="layout-2-rwd.css">
+  <link rel="stylesheet" href="controls.css">
+</head>
+
+<body>
+  <div class="app">
+    <header class="masthead">
+      <h1 class="masthead__logo">LOGO</h1>
+      <ul class="masthead__controls">
+        <li>button 1</li>
+        <li>button 2</li>
+        <li>button 3</li>
+      </ul>
+    </header>
+    <div class="content">
+      <nav class="content__nav">
+        <p>nav</p>
+      </nav>
+      <main class="content__body">
+        <p>bodycopy</p>
+      </main>
+      <aside class="content__sidebar">
+        <p>sidebar</p>
+      </aside>
+    </div>
+    <footer class="footer">
+      <div class="footer__notes">notes</div>
+      <address class="footer__address">address</address>
+      <div class="footer__map">map</div>
+    </footer>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+  <button class="togglebtn" id="toggle-overlay">toggle overlay</button>
+
+  <script src="controls.js"></script>
+</body>
+
+</html>
