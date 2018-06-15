@@ -15,7 +15,7 @@ body {
 }
 
 .columns__item {
-  flex: 1 0 auto;
+  flex: 1 0 calc(100% / 12);
 
   display: flex;
   justify-content: center;

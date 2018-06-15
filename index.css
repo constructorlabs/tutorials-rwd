@@ -1,0 +1,29 @@
+body {
+  display: flex;
+
+  height: 100vh;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toc {
+  margin: auto;
+  padding: 0;
+  border-radius: 5px;
+  list-style: none;
+  background: lightslategray;
+}
+
+.toc a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.toc a:hover {
+  background: #ffffff66;
+}
